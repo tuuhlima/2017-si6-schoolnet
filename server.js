@@ -14,7 +14,10 @@ app.set('views',path.join(__dirname,'public'))
 app.set('view engine','ejs')
 
 app.get('/', (request, response) => {
-    response.render('index')
+    const data = {
+        students: require('./db/studentsDB.json')
+    }
+    response.render('index',data)
 })
 
 app.listen(PORT,() => { 
