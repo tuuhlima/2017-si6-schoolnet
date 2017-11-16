@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple Node.js application to calculate the students status",
   "scripts": {
+    "start":"node server.js"
   },
   "author": "Univas",
   "dependencies":{
