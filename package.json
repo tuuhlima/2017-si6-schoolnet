@@ -4,5 +4,8 @@
   "description": "A simple Node.js application to calculate the students status",
   "scripts": {
   },
-  "author": "Univas"  
+  "author": "Univas",
+  "dependencies":{
+    "express": "^4.16.2"
+  }  
 }
